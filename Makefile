@@ -6,7 +6,7 @@ GH_PAGES_SOURCES = docs/source sarpy Makefile
 SPHINXOPTS    = 
 SPHINXBUILD   = python3 -msphinx
 SPHINXPROJ    = sarpydocs
-SOURCEDIR     = source
+SOURCEDIR     = docs/source
 BUILDDIR      = build
 
 # Put it first so that "make" without argument is like "make help".
