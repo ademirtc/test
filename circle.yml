@@ -1,6 +1,6 @@
 machine:
   python:
-    version: pypy-4.0.1
+    version: pypy-2.6.1
 
 dependencies:
   pre:
