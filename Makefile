@@ -4,7 +4,7 @@
 # You can set these variables from the command line
 GH_PAGES_SOURCES = docs/source sarpy Makefile
 SPHINXOPTS    = 
-SPHINXBUILD   = python3 -msphinx
+SPHINXBUILD   = python3.5.1 -msphinx
 SPHINXPROJ    = sarpydocs
 SOURCEDIR     = docs/source
 BUILDDIR      = build
