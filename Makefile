@@ -26,7 +26,7 @@ gh-pages:
 	git config --global user.name "ademirtc"
 	git checkout gh-pages
 	rm -rf build
-	rm .nojekyll 
+	rm -f .nojekyll 
 	git checkout master $(GH_PAGES_SOURCES)
 	git reset HEAD
 	make html
