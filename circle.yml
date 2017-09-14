@@ -1,7 +1,7 @@
 machine:
-  python:
-    version: pypy-2.6.1
+  post:
+    - pyenv global 3.4.4
 
 dependencies:
   pre:
-    - pip3 install Sphinx
+    - pip install Sphinx
