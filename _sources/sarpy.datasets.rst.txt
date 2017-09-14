@@ -1,0 +1,30 @@
+sarpy\.datasets package
+=======================
+
+Submodules
+----------
+
+sarpy\.datasets\.datasets module
+--------------------------------
+
+.. automodule:: sarpy.datasets.datasets
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+sarpy\.datasets\.mpeg7 module
+-----------------------------
+
+.. automodule:: sarpy.datasets.mpeg7
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: sarpy.datasets
+    :members:
+    :undoc-members:
+    :show-inheritance:
