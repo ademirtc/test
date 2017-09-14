@@ -22,6 +22,8 @@ html: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 gh-pages:
+	git config --global user.email "mtejadac@ime.usp.br"
+	git config --global user.name "ademirtc"
 	git checkout gh-pages
 	rm -rf build 
 	git checkout master $(GH_PAGES_SOURCES)
