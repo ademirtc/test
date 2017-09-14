@@ -31,4 +31,12 @@ gh-pages:
 	mv sarpy.html index.html
 	rm -rf $(GH_PAGES_SOURCES) build
 	git add -A
-	git ci -m "Generated gh-pages for `git log master -1 --pretty=short --abbrev-commit`" && git push origin gh-pages ; git checkout master 
+	git commit -m "Generated gh-pages for `git log master -1 --pretty=short --abbrev-commit`" && git push origin gh-pages ; git checkout master 
+	##git commit --allow-empty -m "Deploy to GitHub pages [ci skip]"
+	# now commit, ignoring branch gh-pages doesn't seem to work, so trying skip
+	# and push, but send any output to /dev/null to hide anything sensitive
+	## git push --force --quiet origin gh-pages > /dev/null 2>&1
+	# go back to where we started and remove the gh-pages git repo we made and used for deployment
+	## cd ..
+	## rm -rf gh-pages-branch
+	echo "Finished Deployment!"
