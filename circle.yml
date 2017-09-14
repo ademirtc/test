@@ -5,3 +5,7 @@ machine:
 dependencies:
   pre:
     - pip install Sphinx
+
+add_ssh_keys:
+	fingerprints:
+    - "b3:dc:2a:b9:ac:51:cd:55:0f:80:6a:7a:db:08:75:f3"
