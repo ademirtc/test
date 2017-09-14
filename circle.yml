@@ -7,5 +7,5 @@ dependencies:
     - pip install Sphinx
 
 add_ssh_keys:
-	fingerprints:
+  fingerprints:
     - "df:bd:83:35:43:30:84:11:a1:b0:a0:c0:b4:ec:02:ee"
